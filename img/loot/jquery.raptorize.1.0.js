@@ -103,4 +103,3 @@
         });//each call
     }//orbit plugin call
 })(jQuery);
-$('a').first().raptorize().click();
