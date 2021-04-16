@@ -1,14 +1,18 @@
-<html lang="en"><head>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 
 
 
 
 
+<html lang="en">
 
+<head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="/web/20110402233948cs_/http://minecraft.net/css/style2.css">
-<link rel="shortcut icon" href="/web/20110402233948im_/http://minecraft.net/favicon.png">
+<link rel="stylesheet" type="text/css" href="/minecraftaprilfools/css/style2.css">
+<link rel="shortcut icon" href="/minecraftaprilfools/favicon.png" />
 
 
 <title>Minecraft</title>
@@ -16,16 +20,24 @@
 	if (top.location != self.location)
 		top.location = self.location;
 </script>
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9482675-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
 
 </head>
 <body>
-
-
-
-
 
 
 
@@ -37,21 +49,27 @@
 
 			<div class="top_center" style="height: 48px; width: 100%;">
 				<table style="height: 48px; width: 100%;">
-					<tbody><tr>
+					<tr>
 						<td style="width: 270px; height: 48px; padding: 0px; top: 0px;">
 
 							<div id="prepurchasesplash" style="height: 88px;">
 
 								
-								<a href="/web/20110402233948/http://minecraft.net/prepurchase.jsp" border="0"><img src="/web/20110402233948im_/http://minecraft.net/img/logo_pps.png" width="270" height="88" border="0" alt="">
+								<a href="/minecraftaprilfools/prepurchase.jsp" border="0"><img
+									src="/minecraftaprilfools/img/logo_pps.png" width="270" height="88" border="0"
+									alt="">
 								</a>
 								
 
 							</div></td>
 						<td>
 							<div id="links">
-								<a href="/web/20110402233948/http://minecraft.net/" id="menu_" class="menuItem" style="background: none;">Home</a>&nbsp; &nbsp; <a href="/web/20110402233948/http://minecraft.net/about.jsp" id="menu_about" class="menuItem" style="background: none;">About</a>
-								&nbsp; &nbsp; <a href="/web/20110402233948/http://minecraft.net/community.jsp" id="menu_community" class="menuItem" style="background: none;">Community</a>&nbsp;&nbsp; <a href="/web/20110402233948/http://minecraft.net/merch.jsp" id="menu_merch" class="menuItem">Merch</a>&nbsp;&nbsp; <a href="/web/20110402233948/http://minecraft.net/help.jsp" id="menu_help" class="menuItem" style="background: none;">Help</a>&nbsp; &nbsp;
+								<a href="/minecraftaprilfools/" id="menu_" class="menuItem">Home</a>&nbsp; &nbsp; <a
+									href="/minecraftaprilfools/about.jsp" id="menu_about" class="menuItem">About</a>
+								&nbsp; &nbsp; <a href="/minecraftaprilfools/community.jsp" id="menu_community"
+									class="menuItem">Community</a>&nbsp;&nbsp; <a href="/minecraftaprilfools/merch.jsp" id="menu_merch"
+									class="menuItem">Merch</a>&nbsp;&nbsp; <a href="/minecraftaprilfools/help.jsp"
+									id="menu_help" class="menuItem">Help</a>&nbsp; &nbsp;
 
 								
 
@@ -61,13 +79,14 @@
 
 							<div id="loginpanel">
 								
-								<a href="/web/20110402233948/http://minecraft.net/login.jsp" class="loginpanel">Log in</a> | <a href="/web/20110402233948/http://minecraft.net/register.jsp" class="loginpanel">Register</a>
+								<a href="/minecraftaprilfools/login.jsp" class="loginpanel">Log in</a> | <a
+									href="/minecraftaprilfools/register.jsp" class="loginpanel">Register</a>
 								
 							</div></td>
 					</tr>
-				</tbody></table>
+				</table>
 			</div>
-			<a href="/web/20110402233948/http://minecraft.net/buy_gift_codes.jsp">Gift codes now available</a>
+			<a href="/minecraftaprilfools/buy_gift_codes.jsp">Gift codes now available</a>
 		</div>
 
 		<div id="toppanel_bg" style="z-index: 1;"></div>
@@ -77,7 +96,7 @@
  //script for linkbuttons
  
 
- var siteurl = "https://web.archive.org/web/20110402233948/http://www.minecraft.net/";
+ var siteurl = "http://www.minecraft.net/";
 
  var menu_items = ["","about","community","help","profile"];
  var pathnames = ["","about.jsp","community.jsp","help.jsp","skin/"];
@@ -109,16 +128,16 @@
 
 						<div id="content">
 							
-<script type="text/javascript" src="/web/20110402233948js_/http://minecraft.net/img/loot/jquery.js"></script>
+<script type="text/javascript" src="/minecraftaprilfools/img/loot/jquery.js"></script>
 <style>
     @font-face {  
         font-family: lootFont ;  
-        src: url( /web/20110402233948im_/http://minecraft.net/img/loot/font.ttf ) format("truetype");  
+        src: url( /img/loot/font.ttf ) format("truetype");  
     }  
  
     #store {
         font-family:lootFont;
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/store_bg.png);
+        background:transparent url(/minecraftaprilfools/img/loot/store_bg.png);
         width:800px;
     }
     
@@ -137,7 +156,7 @@
     }
     
     .sticker {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/sticker.png) no-repeat;
+        background:transparent url(/minecraftaprilfools/img/loot/sticker.png) no-repeat;
         width:63px;
         height:48px;
         position:absolute;
@@ -150,51 +169,51 @@
     }
     
     #product_1 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_key.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_key.png) no-repeat 10px 10px;
     }
     
     #product_2 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_key5.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_key5.png) no-repeat 10px 10px;
     }
     
     #product_3 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_helmet.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_helmet.png) no-repeat 10px 10px;
     }
     
     #product_4 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_namechange.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_namechange.png) no-repeat 10px 10px;
     }
     
     #product_5 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_saddle.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_saddle.png) no-repeat 10px 10px;
     }
     
     #product_6 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_identity.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_identity.png) no-repeat 10px 10px;
     }
     
     #product_7 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_pill.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_pill.png) no-repeat 10px 10px;
     }
     
     #product_8 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_support.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_support.png) no-repeat 10px 10px;
     }
     
     #product_9 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_lock.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_lock.png) no-repeat 10px 10px;
     }
     
     #product_10 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_lock.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_lock.png) no-repeat 10px 10px;
     }
     
     #product_11 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_lock.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_lock.png) no-repeat 10px 10px;
     }
     
     #product_12 {
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/product_lock.png) no-repeat 10px 10px;
+        background:transparent url(/minecraftaprilfools/img/loot/product_lock.png) no-repeat 10px 10px;
     }
     
     #storecontainer {
@@ -218,7 +237,7 @@
         text-align:right;
         width:319px;
         height:130px;
-        background:transparent url(/web/20110402233948im_/http://minecraft.net/img/loot/cart.png) no-repeat;
+        background:transparent url(/minecraftaprilfools/img/loot/cart.png) no-repeat;
         margin-bottom:40px;
         color:white;
         font-family:lootFont;
@@ -267,9 +286,9 @@
         padding-top:0px;
     }
 </style>
-<embed src="../../img/loot/song.mid" hidden="true" autostart="true" autoplay="true" loop="true" volume="100%">
+<embed src="/minecraftaprilfools/img/loot/song.mid" hidden="true" autostart="true" autoplay="true" loop="true" volume="100%"/>
     <div id="sintext">
-        <div>♥</div>
+        <div>&hearts;</div>
         <div>&nbsp;</div>
         <div>A</div>
         <div>p</div>
@@ -285,7 +304,7 @@
         <div>'</div>
         <div>!</div>
         <div>&nbsp;</div>
-        <div>♥</div>
+        <div>&hearts;</div>
     </div>
     <div id="storecontainer">
         <h1>Welcome to the Minecraft Store!</h1>
@@ -293,7 +312,7 @@
             <div style="font-size:20px">Your Cart!</div>
             <div id="cartvalue">$0</div>
         </div>
-        <a id="checkout" href="#">Proceed to Checkout! &gt;</a>
+        <a id="checkout" href="#">Proceed to Checkout! ></a>
         <div id="store">
             <a class="loot" id="product_1" href="#">
                 <div class="sticker">$3</div>
@@ -346,7 +365,7 @@
             <div style="clear:both;height:0">&nbsp;</div>
         </div>
     </div>
-    <script src="/web/20110402233948js_/http://minecraft.net/img/loot/jquery.raptorize.1.0.js"></script>
+    <script src="/minecraftaprilfools/img/loot/jquery.raptorize.1.0.js"></script>
     <script type="text/javascript">
         $(window).load(function() {
             $('#checkout').raptorize();
@@ -485,10 +504,10 @@
 
 <br>
 
-</div> 
+</div> <!-- page end-->
 
-</div> 
-<div class="footer" id="footer">Copyright 2009-2010 Mojang AB. <a href="">Terms and conditions</a>. <a href="">Credits</a>. <a href="">Support / FAQ</a>. </div>
+</div> <!-- pagecenter end-->
+<div class="footer" id="footer">Copyright 2009-2010 Mojang AB. <a href="/minecraftaprilfools/copyright.jsp">Terms and conditions</a>. <a href="/minecraftaprilfools/credits.jsp">Credits</a>. <a href="/minecraftaprilfools/support.jsp">Support / FAQ</a>. </div>
 
 <script type="text/javascript">
 var IE7 = false;
@@ -540,7 +559,5 @@ checkVersion();
 
 
 
-
-
-
-</body></html>
+</body>
+</html>
