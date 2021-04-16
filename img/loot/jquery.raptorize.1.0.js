@@ -1,5 +1,3 @@
-
-!window.jQuery && document.write('<script src="./jquery.js"><\/script>');
 /*
  * jQuery Raptorize Plugin 1.0
  * www.ZURB.com/playground
@@ -27,9 +25,9 @@
 			var _this = $(this);
 			var audioSupported = false;
 			//Stupid Browser Checking which should be in jQuery Support
-			//if ($.browser.mozilla && $.browser.version.substr(0, 5) >= "1.9.2" || $.browser.webkit) { 
-			//	audioSupported = true;
-			//}
+			if (navigator.appCodeName == "Mozilla" && navigator.appVersion.substr(0, 5) >= "1.9.2" || navigator.userAgent) { 
+				audioSupported = true;
+			}
 			
 			//Raptor Vars
 			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="raptor.png" />'
