@@ -1,5 +1,5 @@
 
-!window.jQuery && document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"><\/script>');
+!window.jQuery && document.write('<script src="./jquery.js"><\/script>');
 /*
  * jQuery Raptorize Plugin 1.0
  * www.ZURB.com/playground
