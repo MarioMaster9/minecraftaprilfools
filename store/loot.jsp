@@ -133,7 +133,7 @@
 <style>
     @font-face {  
         font-family: lootFont ;  
-        src: url( /img/loot/font.ttf ) format("truetype");  
+        src: url( /img/loot/font.ttf );  
     }  
  
     #store {
