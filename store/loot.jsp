@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 
@@ -132,7 +133,7 @@
 <style>
     @font-face {  
         font-family: lootFont ;  
-        src: url( /img/loot/font.eot ) format("embedded-opentype");  
+        src: url( /img/loot/font.ttf ) format("truetype");  
     }  
  
     #store {
@@ -286,7 +287,7 @@
         padding-top:0px;
     }
 </style>
-<embed src="/minecraftaprilfools/img/loot/song.mid" hidden="true" autostart="true" autoplay="true" loop="true" volume="100%"/>
+<embed src="/minecraftaprilfools/img/loot/song.mid" hidden="true" autostart="true" autoplay="true" loop="true" volume="100%"/minecraftaprilfools/>
     <div id="sintext">
         <div>&hearts;</div>
         <div>&nbsp;</div>
