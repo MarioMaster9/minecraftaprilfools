@@ -133,7 +133,7 @@
 <style>
     @font-face {  
         font-family: lootFont ;  
-        src: url( /minecraftaprilfools/img/loot/font.ttf );  
+        src: url( /minecraftaprilfools/img/loot/font.ttf ) format("truetype");  
     }  
  
     #store {
