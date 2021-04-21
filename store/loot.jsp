@@ -131,11 +131,14 @@
 							
 <script type="text/javascript" src="/minecraftaprilfools/img/loot/jquery.js"></script>
 <style>
-    @font-face {  
-        font-family: lootFont ;  
-        src: url( /minecraftaprilfools/img/loot/font.ttf ) format("truetype");  
-        src: url( /minecraftaprilfools/img/loot/font.eot ) format("embedded-opentype");  
-    }  
+@font-face {
+    font-family: lootFont ;
+    src: url('/minecraftaprilfools/img/loot/font.eot');
+    src: url('/minecraftaprilfools/img/loot/font.eot?#iefix')
+             format('embedded-opentype'),
+         url('/minecraftaprilfools/img/loot/font.woff') format('woff'),
+         url('/minecraftaprilfools/img/loot/font.ttf') format('truetype');
+}
  
     #store {
         font-family:lootFont;
