@@ -134,6 +134,7 @@
     @font-face {  
         font-family: lootFont ;  
         src: url( /minecraftaprilfools/img/loot/font.ttf ) format("truetype");  
+        src: url( /minecraftaprilfools/img/loot/font.eot ) format("embedded-opentype");  
     }  
  
     #store {
